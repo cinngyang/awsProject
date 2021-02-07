@@ -1,0 +1,11 @@
+*.exe 
+*.config
+*.bat
+*.mdb
+*.tmp
+
+
+#IPython
+profile_default/
+.ipython_checkpoints
+
