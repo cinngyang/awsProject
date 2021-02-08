@@ -48,7 +48,8 @@ pip3 install flask
   git remote add origin <URL>
   git branch -M main
   git push -u origin main
+  
   ```
 
-  
+  <pre><code>git push origin master</code></pre>
 
