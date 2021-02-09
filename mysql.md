@@ -1,4 +1,5 @@
 [Ubuntu 架設 MySQL](https://magiclen.org/ubuntu-server-mysql-php/)
+[python mysql](https://www.itread01.com/content/1544933702.html)
 + MySQL伺服器的設定
 檔路徑為/etc/mysql/mysql.conf.d/mysqld.cnf<br>
 
