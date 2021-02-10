@@ -30,7 +30,9 @@ pip3 -V
 
 + Python 建立虛擬環境 virtualenv(可以隔離)<br>
 
-  [參考 資料 pyvenv VS virtualenv ](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/471323/)
+  [參考 資料 pyvenv VS virtualenv ](https://codertw.com/%E7%A8%8B%E5%BC%8F%E8%AA%9E%E8%A8%80/471323/)<br>
+  [crontab 時間編輯](https://crontab.guru/#30_8_*_*_1)
+  [nohup 指令 – 背景執行指令]
 
 <pre><code>python3 -m venv myenv
 cd myenv
@@ -39,6 +41,15 @@ python3 --version
 which python3
 pip3 list
 pip3 install flask
+</code></pre>
+
++ ubuntu 常用指令
+<pre><code><command sleep 300> &
+ jobs
+ fg %1 # 工作帶回前景 (foreground)
+ nohup your-command &
+ crontab -l
+ 
 </code></pre>
 
 + Git 指令<br>[認識Git](https://www.maxlist.xyz/2018/11/02/git_tutorial/)<br>[list of git ignore templates](https://github.com/github/gitignore)
