@@ -1,6 +1,6 @@
 
 
-# Flask setuo
+# Flask setup
 
 [TOC]
 
