@@ -6,7 +6,7 @@
 
 Setup up flask web sit in aws ec2 <br>
 
-![架構](../awsProject/img/flask_gunicorn_nginx.png)<p>
+![架構](img/flask_gunicorn_nginx.png)<p>
 
 Flask Route method
 

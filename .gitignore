@@ -4,7 +4,10 @@
 *.bat
 *.mdb
 *.tmp
+*.mynote
+*.drawio
 
+Note/
 
 #IPython
 profile_default/
