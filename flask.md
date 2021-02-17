@@ -2,7 +2,10 @@
 
 # Flask setup
 
-[TOC]
+- [gunicorn](#gunicorn )<br>
+- [nginx + gunicorn](#nginx + gunicorn)<br>
+
+
 
 Setup up flask web sit in aws ec2 <br>
 
