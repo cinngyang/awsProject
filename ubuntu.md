@@ -1,13 +1,15 @@
+- Aws EC2 建立 ubuntu  
+- 安裝 Python 虛擬環境與 Mysql db , Python 虛擬環境方式 virtualenv 可以隔離環境與版本
+- Rasberry Pi 3 安裝 mysql db<p>
 
-AWS EC2 建立 ubuntu 環境安裝 Python 虛擬環境與 Mysql db<br>Python 虛擬環境方式 virtualenv 可以隔離環境與版本<br>Rasberry Pi 3 安裝 mysql db<p>
+[Git 指令](# Git 指令)
+[ubuntu 建置虛擬環境](#ubuntu)
 
-[TOC]
-
-## AWS  安裝 ununtu
+## AWS  安裝 ubuntu
 
 安裝 Python 虛擬環境 利用 requirement 管理版本與元件<br>nginx for Web Service<br>MySql Cilent & Server<br>
-
-<pre><code>sudo apt-get upgrade - 更新安裝環境來源
+``` bash
+sudo apt-get upgrade - 更新安裝環境來源
 sudo apt-get install net-tools - 網路元元件
 sudo apt-get install python3-pip 
 sudo apt-get install python3-venv 
@@ -18,11 +20,10 @@ sudo apt-get install mysql-server
 pip3 -V
 #pip freeze > requirements.txt
 #pip install -r requirements.txt
-</code>
-</pre>
+```
 ubuntu 18.04 安裝  python-pip 方式
 
-```py
+```bash
 sudo apt-get install software-properties-common
 sudo apt-add-repository universe
 sudo apt-get update
@@ -31,22 +32,23 @@ sudo apt-get install python-pip
 
 Rasberrypi my Sql & pandas import errr 處理
 
-```html
+```bashl
 sudo apt-get install mariadb-server #rasberry pi
 sudo apt-get install libmysqlclient-dev
 sudo apt-get install libatlas-base-dev
 ```
 
-##ununtu 建置虛擬環境
+<h2 id="ubuntu">建置虛擬環境</h2>
 
-<pre><code>python3 -m venv myenv
+``` bash
+python3 -m venv myenv
 cd myenv
 source bin/activate
 python3 --version
 which python3
 pip3 list
 pip3 install flask
-</code></pre>
+```
 
 + ubuntu 常用指令
 <pre><code>jobs
@@ -54,9 +56,11 @@ pip3 install flask
  nohup your-command 
  crontab -l 
 </code></pre>
+
 ## Git 指令
 
-<pre><code>$git init
+``` bash
+$git init
 $git add <file>
 $git add . #all Folder and files
 $git commit -m '<command>'
@@ -64,10 +68,10 @@ $git branch -M
 $git config --list
 $git status
 $git clone <repo URL> -b
-
+```
 Push local File
 
-```
+``` bash
 git remote add origin <URL>
 git branch -M main
 git push -u origin main
