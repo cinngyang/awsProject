@@ -1,3 +1,5 @@
+[Home](README.md)
+
 Flask 登入管理使用 [flask_login](https://flask-login.readthedocs.io/en/latest/)<br>
 
 + init login manager

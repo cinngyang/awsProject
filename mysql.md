@@ -1,6 +1,9 @@
-[TOC]
+[Home](README.md)
 
-##安裝 MySQL
+[常用命令](#cmd)<br>
+[檢查mysql狀態](#sqlstatus)<br>
+
+<h2>安裝 MySQL</h2>
 
 ```shell
 sudo apt-get install mysql-server
@@ -15,7 +18,7 @@ sudo mysql -u root -p
 sudo mysql_secure_installation
   ```
 
-+ 檢查 mysql 狀態
+<h2 id='sqlstatus'> 檢查 mysql 狀態</h2>
 
   ```shell
   sudo netstat -tlnp | grep mysqld
@@ -24,7 +27,7 @@ sudo mysql_secure_installation
   sudo systemctl restart mysql
   sudo -u root #登入 mysql
   ```
-  
+
 ##建立新使用者
 
 建立使用者,賦予資料庫權限&重新載入權限表
@@ -53,7 +56,8 @@ CREATE TABLE `users` (
 
 ```
 
-##常用命令
+<h2 id='cmd'>常用命令</h2>
+
 檢視 columns
 
 ```shell

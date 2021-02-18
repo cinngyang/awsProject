@@ -1,11 +1,13 @@
+[Home](README.md)
+
 - Aws EC2 建立 ubuntu  
 - 安裝 Python 虛擬環境與 Mysql db , Python 虛擬環境方式 virtualenv 可以隔離環境與版本
 - Rasberry Pi 3 安裝 mysql db<p>
 
-[Git 指令](# Git 指令)
+[Git 指令](#git)
 [ubuntu 建置虛擬環境](#ubuntu)
 
-## AWS  安裝 ubuntu
+<h2> AWS  安裝 ubuntu</h2>
 
 安裝 Python 虛擬環境 利用 requirement 管理版本與元件<br>nginx for Web Service<br>MySql Cilent & Server<br>
 ``` bash
@@ -57,7 +59,7 @@ pip3 install flask
  crontab -l 
 </code></pre>
 
-## Git 指令
+<h2 id="git">Git 指令</h2>
 
 ``` bash
 $git init
