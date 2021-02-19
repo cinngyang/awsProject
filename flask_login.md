@@ -2,12 +2,14 @@
 
 Flask 登入管理使用 [flask_login](https://flask-login.readthedocs.io/en/latest/)<br>
 
+如何避免 CSRF 攻擊？<br>
+ + 方法一 CSRF token
+ + 方法二 SameSite cookie
+
 + init login manager
 
 + 設立 User Model & UserMxin
-
-+ route 加入 @login_required 
-
++ route 加入 @login_required
 + handle login failed  @app.errorhandler(401)
 
 [Flask-Login_登入狀態管理](https://hackmd.io/@shaoeChen/ryvr_ly8f?type=view)<br>
