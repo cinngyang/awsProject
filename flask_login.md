@@ -11,6 +11,7 @@ Flask 登入管理使用 [flask_login](https://flask-login.readthedocs.io/en/lat
 + handle login failed  @app.errorhandler(401)
 
 [Flask-Login_登入狀態管理](https://hackmd.io/@shaoeChen/ryvr_ly8f?type=view)<br>
+[Flask-wtf-csrf](https://www.maxlist.xyz/2020/05/07/flask-csrf/)<br>
 
 ``` python
 from flask import Flask, url_for, request, redirect ,render_template
