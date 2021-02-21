@@ -29,4 +29,4 @@ def page_not_found(e):
 ```
 
 ----
-[jinja2 官方文件](https://jinja.palletsprojects.com/en/2.11.x/templates/)<br>
+[jinja2 官方文件](https://jinja.palletsprojects.com/en/2.11.x/templates/)<br>[Flask 幾個重要的用法](https://realpython.com/primer-on-jinja-templating/#quick-examples)<br>
