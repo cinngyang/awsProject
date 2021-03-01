@@ -1,4 +1,4 @@
-[ubuntu 環境安裝設定](ubuntu.md)<br>[MySql環境安裝設定](mysql.md)<br>[flask 建置與設定](flask.md)<br>[flask login 介紹](flask_login.md)<br>[aws congito](AWS_Congito)<br>[Python Sample code](https://github.com/cinngyang/ETLTemplate)<br>[Flask Web 結構](WebComponent.md)<br>
+[ubuntu 環境安裝設定](ubuntu.md)<br>[MySql環境安裝設定](mysql.md)<br>[flask & gunicron & nginx 建置與設定](flask.md)<br>[flask login 介紹](flask_login.md)<br>[aws congito](AWS_Congito)<br>[Python Sample code](https://github.com/cinngyang/ETLTemplate)<br>[Flask Web 結構](WebComponent.md)<br>
 
 
 

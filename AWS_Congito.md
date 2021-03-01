@@ -4,7 +4,7 @@
 
 aws 官方提供 python 套件 boot3 / warrant 另外有 Flask-Cognito 跟其他相關套件。<br>
 
-一直採坑中 .....
+使用python 開發環境要注意 CLI 的金鑰與 congito 的app client <br> 一直採坑中 ..... 
 
 OAuth 2.0 待研究
 
