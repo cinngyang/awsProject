@@ -48,4 +48,28 @@ async function GetTable() {
             })
 
         });
+        
+        
+ if ($.fn.DataTable.isDataTable('#dfGroupYield')) {
+            $('#dfGroupYield').DataTable().destroy();
+            $('#dfGroupYield').empty();
+        };
+        
 ```
+
+``` html
+  
+
+ $('#dfGroupYield').DataTable({
+            dom: "<'row'<'col-sm-12 col-md-4'l><'col-sm-12 col-md-6'f><'col-sm-12 col-md-2'B>>" +
+                "<'row'<'col-sm-12'tr>>" +
+                "<'row'<'col-sm-12 col-md-4'i><'col-sm-12 col-md-8'p>>",
+            "destroy": true,
+            buttons: ['excel', 'copy'],
+            data: objData.data,
+            columns: icols,
+            "clear": true,
+            iDisplayLength: 50,
+
+        });
+``` 
